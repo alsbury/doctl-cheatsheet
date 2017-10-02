@@ -14,4 +14,10 @@ List domains
 List records for a domain:
 `doctl compute domain records list <mydomain.name>`
 
+*Create A Record*
+doctl compute domain records create startchurch.me --record-type "A" --record-name "subdomain_name" --record-data "xxx.xxx.xxx.xxx"
+
+*Create CNAME Record*
+doctl compute domain records create startchurch.me --record-type "CNAME" --record-name "subdomain_name" --record-data "domain_name_with_trailing_period"
+
 ### Images
