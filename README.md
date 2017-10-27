@@ -26,3 +26,9 @@ doctl compute domain records create startchurch.me --record-type "A" --record-na
 `doctl compute domain records create startchurch.me --record-type "CNAME" --record-name "subdomain_name" --record-data "domain_name_with_trailing_period"`
 
 ### Images
+
+*List Only Your Images*
+doctl compute image list
+
+*List All Public Distribution Images*
+doctl compute image list-distribution --public
