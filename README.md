@@ -28,7 +28,9 @@ doctl compute domain records create startchurch.me --record-type "A" --record-na
 ### Images
 
 *List Only Your Images*
-doctl compute image list
+
+`doctl compute image list`
 
 *List All Public Distribution Images*
-doctl compute image list-distribution --public
+
+`doctl compute image list-distribution --public`
